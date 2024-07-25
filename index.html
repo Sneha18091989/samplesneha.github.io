@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+     
+     body
+        { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fdfcdc;
+
+
+
+        }
+        .bounce-animation
+        {
+            font-size: 80px;
+            font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+            font-weight: 500;
+            position: relative;
+            display: flex;
+
+        }
+        .b,.o,.u,.n,.c,.e
+        {
+            color: aqua;
+            /*text-shadow: 03px rgb(32,59,84), 05px rgb(32, 59, 84),07px rgb(32,59,84);*/
+            text-shadow: 07px rgb(blue);
+            position: relative;
+        }
+
+         .b    
+         {
+                animation: bounce 1s ease infinite;
+                -webkit-animation: bounce 1s ease infinite;
+         }
+
+         .o {
+                animation: bounce 1s ease infinite .1s;
+                -webkit-animation: bounce 1s ease infinite .1s;
+            }
+         .u {
+                animation: bounce 1s ease infinite .2s;
+                -webkit-animation: bounce 1s ease infinite .2s;
+              }
+        .n {
+                animation: bounce 1s ease infinite .3s;
+                -webkit-animation: bounce 1s ease infinite .3s;
+              }
+        .c {
+                animation: bounce 1s ease infinite .4s;
+                -webkit-animation: bounce 1s ease infinite .4s;
+              }
+        .e {
+                animation: bounce 1s ease infinite .5s;
+                -webkit-animation: bounce 1s ease infinite .5s;
+              }
+            </style>
+    </head>
+    <body>
+        <div class="bounce-animation">
+            <div class="b">B</div>
+            
+            <div class="o">O</div>
+
+            <div class="u">U</div>
+
+            <div class="n">N</div>
+
+            <div class="c">C</div>
+
+            <div class="e">E</div>
+
+        </div>
+
+    </body>
+</html>
